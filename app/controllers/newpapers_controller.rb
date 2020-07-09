@@ -1,2 +1,0 @@
-class NewpapersController < ApplicationController
-end

@@ -1,2 +1,0 @@
-class Newpaper < ApplicationRecord
-end
