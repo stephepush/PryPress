@@ -23,7 +23,7 @@ newspaper7 = Newspaper.create(newspaper: "The Wall Street Journal", logo: "https
 newspaper8 = Newspaper.create(newspaper: "Chicago Tribune", logo: "https://res.cloudinary.com/dmkct6wfu/image/upload/v1594298974/newPaperFolder/chicago_tribune_logo_dcr5x0.png")
 
 #subscriptions
-subscription3 = Subscription.create(user_id: user3.id, newspaper_id: newspaper3.id, newsPaper_id: newspaper7.id)
-subscription4 = Subscription.create(user_id: user4.id, newspaper_id: newspaper4.id, newsPaper_id: newspaper1.id)
-subscription4 = Subscription.create(user_id: user4.id, newspaper_id: newspaper1.id, newsPaper_id: newspaper8.id)
-subscription5 = Subscription.create(user_id: user4.id, newspaper_id: newspaper5.id, newsPaper_id: newspaper3.id)
+subscription3 = Subscription.create(user_id: user3.id, newspaper_id: newspaper3.id, newspaper_id: newspaper7.id)
+subscription4 = Subscription.create(user_id: user4.id, newspaper_id: newspaper4.id, newspaper_id: newspaper2.id)
+subscription4 = Subscription.create(user_id: user4.id, newspaper_id: newspaper5.id, newspaper_id: newspaper8.id)
+subscription5 = Subscription.create(user_id: user4.id, newspaper_id: newspaper5.id, newspaper_id: newspaper3.id)
