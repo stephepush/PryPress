@@ -17,7 +17,13 @@ user7 = User.create(name: "Norm Crane", street_address: "6492 Mayberry Ln.", zip
 newspaper2 = Newspaper.create(newspaper: "Dallas Morning News", logo: "https://res.cloudinary.com/dmkct6wfu/image/upload/v1594341652/newPaperFolder/Dallas-morning-news.png")
 newspaper3 = Newspaper.create(newspaper: "Daily Herald", logo: "https://res.cloudinary.com/dmkct6wfu/image/upload/v1594341651/newPaperFolder/daily_herald.png")
 newspaper4 = Newspaper.create(newspaper: "NJ Star Ledger", logo: "https://res.cloudinary.com/dmkct6wfu/image/upload/v1594341651/newPaperFolder/nj-star-ledger.jpg")
-newspaper5 = Newspaper.create(newspaper: "USA Today", logo: "https://res.cloudinary.com/dmkct6wfu/image/upload/v1594341651/newPaperFolder/Oregonian-logo.jpg")
+newspaper5 = Newspaper.create(newspaper: "Oregorian", logo: "https://res.cloudinary.com/dmkct6wfu/image/upload/v1594341651/newPaperFolder/Oregonian-logo.jpg")
 newspaper6 = Newspaper.create(newspaper: "Star Tribune", logo: "https://res.cloudinary.com/dmkct6wfu/image/upload/v1594341651/newPaperFolder/Minn-Star-Tribune.png")
 newspaper7 = Newspaper.create(newspaper: "The Wall Street Journal", logo: "https://res.cloudinary.com/dmkct6wfu/image/upload/v1594298997/newPaperFolder/Wsj-logo_itam8v.png")
 newspaper8 = Newspaper.create(newspaper: "Chicago Tribune", logo: "https://res.cloudinary.com/dmkct6wfu/image/upload/v1594298974/newPaperFolder/chicago_tribune_logo_dcr5x0.png")
+
+#subscriptions
+subscription3 = Subscription.create(user_id: user3.id, newspaper_id: newspaper3.id, newsPaper_id: newspaper7.id)
+subscription4 = Subscription.create(user_id: user4.id, newspaper_id: newspaper4.id, newsPaper_id: newspaper1.id)
+subscription4 = Subscription.create(user_id: user4.id, newspaper_id: newspaper1.id, newsPaper_id: newspaper8.id)
+subscription5 = Subscription.create(user_id: user4.id, newspaper_id: newspaper5.id, newsPaper_id: newspaper3.id)
